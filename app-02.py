@@ -4,8 +4,8 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 import pickle
 
-model = pickle.load(open("../flask-app-ds/models/model.p", "rb"))
-cv = pickle.load(open("../flask-app-ds/models/cv.p", "rb"))
+#model = pickle.load(open("../flask-app-ds/models/model.p", "rb"))
+#cv = pickle.load(open("../flask-app-ds/models/cv.p", "rb"))
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
